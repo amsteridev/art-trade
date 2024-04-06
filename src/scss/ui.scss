@@ -1,0 +1,41 @@
+.icon-button {
+    width: 24px;
+    height: 24px;
+    background: none;
+    border: 0;
+
+    svg {
+
+        width: 24px;
+        height: 24px;
+    }
+}
+
+
+.button {
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &_color {
+        &_orange {
+            background: #F7CC35;
+            color: #2D3136;
+        }
+    }
+
+    &_size {
+        &_medium {
+            padding-inline: 24px;
+            height: 40px;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 18px;
+        }
+    }
+
+    &_uppercase {
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+//hidden
+.hide {
+    display: none !important;
+}
+
+.is-mobile-hide {
+    @media (max-width: 767px) {
+        display: none !important;
+    }
+}
+
+.is-desktop-hide {
+    @media (min-width: 1024px) {
+        display: none !important;
+    }
+}
+
+.is-desktop-only {
+    @media (max-width: 1023px) {
+        display: none !important;
+    }
+}
+
+.is-mobile-only {
+    @media (min-width: 768px) {
+        display: none !important;
+    }
+}
+
+// reboot
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: #F2F3F5;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+// container
+.container {
+    max-width: 1256px;
+    width: 100%;
+    padding-inline: 16px;
+    margin-inline: auto;
+}
+
+// swiper
+.swiper-pagination {
+    position: static!important;
+    transform: unset!important;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.swiper-pagination-bullet {
+    width: 10px!important;
+    height: 10px!important;
+    background: #969696!important;
+    transition: .3s;
+}
+
+.swiper-pagination-bullet-active {
+    background: #EFEFEF!important;
+}

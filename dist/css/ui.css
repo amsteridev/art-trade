@@ -1,0 +1,37 @@
+.icon-button {
+  width: 24px;
+  height: 24px;
+  background: none;
+  border: 0;
+}
+.icon-button svg {
+  width: 24px;
+  height: 24px;
+}
+
+.button {
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.button_color_orange {
+  background: #F7CC35;
+  color: #2D3136;
+}
+.button_size_medium {
+  padding-inline: 24px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+.button_uppercase {
+  text-transform: uppercase;
+}
