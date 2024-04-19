@@ -735,3 +735,133 @@
     width: max-content;
   }
 }
+
+.benefits {
+  background: #131921;
+  padding: 40px 0;
+}
+@media (min-width: 1024px) {
+  .benefits {
+    padding: 50px 0;
+    background: #2D3136;
+  }
+}
+.benefits__heading {
+  margin-bottom: 32px;
+}
+.benefits__title {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #fff;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .benefits__title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+.benefits__content {
+  margin-bottom: 56px;
+}
+@media (min-width: 1024px) {
+  .benefits__content {
+    margin-bottom: 28px;
+  }
+}
+.benefits__text {
+  display: none;
+  font-weight: 500;
+  line-height: 26px;
+  color: #fff;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .benefits__text {
+    display: block;
+    margin-bottom: 56px;
+    font-size: 22px;
+  }
+}
+@media (min-width: 1024px) {
+  .benefits__slider-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+    row-gap: 30px;
+  }
+}
+.benefits__slide {
+  height: auto !important;
+}
+@media (min-width: 1024px) {
+  .benefits__slide {
+    width: calc(25% - 20px) !important;
+  }
+}
+@media (min-width: 1024px) {
+  .benefits__actions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.benefits__actions button {
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  .benefits__actions button {
+    width: inherit;
+  }
+}
+
+.benefit-tile {
+  margin-inline: auto;
+  width: 284px;
+  height: 100%;
+  padding: 30px 10px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+@media (min-width: 1024px) {
+  .benefit-tile {
+    width: 100%;
+  }
+}
+.benefit-tile__icon {
+  margin-bottom: 20px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.benefit-tile__icon svg {
+  height: 100%;
+}
+.benefit-tile__title {
+  margin-bottom: 16px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #fff;
+  text-align: center;
+}
+.benefit-tile__description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #D4DBDE;
+  text-align: center;
+}

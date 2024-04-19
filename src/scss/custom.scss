@@ -677,3 +677,125 @@
         }
     }
 }
+
+.benefits {
+    background: #131921;
+    padding: 40px 0;
+
+    @media (min-width: 1024px) {
+        padding: 50px 0;
+        background: #2D3136;
+    }
+
+    &__heading {
+        margin-bottom: 32px;
+    }
+
+    &__title {
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 26px;
+        color: #fff;
+        text-align: center;
+
+        @media (min-width: 1024px) {
+            font-size: 36px;
+            line-height: 42px;
+        }
+    }
+
+    &__content {
+        margin-bottom: 56px;
+
+        @media (min-width: 1024px) {
+            margin-bottom: 28px;
+        }
+    }
+
+    &__text {
+        display: none;
+
+        @media (min-width: 1024px) {
+            display: block;
+            margin-bottom: 56px;
+            font-size: 22px;
+        }
+        font-weight: 500;
+        line-height: 26px;
+        color: #fff;
+        text-align: center;
+    }
+
+    &__slider-inner {
+        @media (min-width: 1024px) {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 20px;
+            row-gap: 30px;
+        }
+    }
+
+    &__slide {
+        height: auto!important;
+
+        @media (min-width: 1024px) {
+            width: calc(25% - 20px)!important;
+        }
+    }
+
+    &__actions {
+        @media (min-width: 1024px) {
+            display: flex;
+            justify-content: center;
+        }
+
+        button {
+            width: 100%;
+
+            @media (min-width: 1024px) {
+                width: inherit;
+            }
+        }
+    }
+}
+
+.benefit-tile {
+    margin-inline: auto;
+    width: 284px;
+    height: 100%;
+    padding: 30px 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+
+    @media (min-width: 1024px) {
+        width: 100%;
+    }
+
+    &__icon {
+        margin-bottom: 20px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+
+        svg {
+            height: 100%;
+        }
+    }
+
+    &__title {
+        margin-bottom: 16px;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 26px;
+        color: #fff;
+        text-align: center;
+    }
+
+    &__description {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #D4DBDE;
+        text-align: center;
+    }
+}
