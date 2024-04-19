@@ -799,3 +799,148 @@
         text-align: center;
     }
 }
+
+.footer {
+    padding: 40px 0;
+    background: #131921;
+
+    @media (min-width: 1024px) {
+        background: #2D3136;
+    }
+
+    &__inner {
+        @media (min-width: 1024px) {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    &__heading {
+        margin-bottom: 40px;
+
+        @media (min-width: 1024px) {
+            margin: 0;
+        }
+    }
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 24px;
+        height: 67px;
+
+        @media (min-width: 1024px) {
+            justify-content: flex-start;
+        }
+
+        svg {
+            height: 100%;
+        }
+    }
+
+    &__text {
+        margin-bottom: 6px;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 26px;
+        color: #f9f9f9;
+        text-align: center;
+
+        @media (min-width: 1024px) {
+            text-align: left;
+        }
+    }
+
+    &__phone {
+        margin-bottom: 24px;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 30px;
+        color: #f9f9f9;
+        text-align: center;
+
+        @media (min-width: 1024px) {
+            text-align: left;
+        }
+    }
+}
+
+.footer-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+    @media (min-width: 1024px) {
+        justify-content: flex-start;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    &__icon {
+        width: 24px;
+        height: 24px;
+
+        svg {
+            width: 100%;
+        }
+    }
+
+    &__text {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        color: #ffff;
+    }
+}
+
+.footer-section {
+    +.footer-section {
+        margin-top: 40px;
+
+        @media (min-width: 1024px) {
+            margin-top: 0;
+        }
+    }
+
+    &__title {
+        margin-bottom: 18px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 20px;
+        color: #F9F9F9;
+        text-align: center;
+
+        @media (min-width: 1024px) {
+            text-align: left;
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+    }
+
+    &__link {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        color: #CECECE;
+
+        @media (min-width: 1024px) {
+            text-align: left;
+        }
+    }
+}
+
