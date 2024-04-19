@@ -25,6 +25,12 @@
             background: #F7CC35;
             color: #2D3136;
         }
+
+        &_white {
+            background: transparent;
+            color: #fff;
+            border: 2px solid #fff;
+        }
     }
 
     &_size {

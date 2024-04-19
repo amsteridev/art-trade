@@ -54,6 +54,22 @@
             line-height: 30px;
         }
     }
+
+    &__actions {
+        margin-top: 50px;
+
+        @media (min-width: 1024px) {
+            margin-top: 24px;
+        }
+
+        button {
+            width: 100%;
+            
+            @media (min-width: 1024px) {
+                width: max-content;
+            }
+        }
+    }
 }
 
 // categories

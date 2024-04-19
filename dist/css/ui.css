@@ -27,6 +27,11 @@
   background: #F7CC35;
   color: #2D3136;
 }
+.button_color_white {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
 .button_size_medium {
   padding-inline: 24px;
   height: 40px;

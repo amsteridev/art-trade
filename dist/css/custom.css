@@ -59,6 +59,24 @@
     line-height: 30px;
   }
 }
+.promo-slide__actions {
+  margin-top: 50px;
+}
+@media (min-width: 1024px) {
+  .promo-slide__actions {
+    margin-top: 24px;
+  }
+}
+.promo-slide__actions button {
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  .promo-slide__actions button {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+}
 
 .categories {
   padding-top: 24px;
