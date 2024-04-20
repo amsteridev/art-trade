@@ -42,3 +42,16 @@
 .button_uppercase {
   text-transform: uppercase;
 }
+.button_with_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+.button_with_icon svg {
+  width: 24px;
+  height: 24px;
+}

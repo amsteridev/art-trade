@@ -5,7 +5,6 @@
     border: 0;
 
     svg {
-
         width: 24px;
         height: 24px;
     }
@@ -45,5 +44,18 @@
 
     &_uppercase {
         text-transform: uppercase;
+    }
+
+    &_with {
+        &_icon {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+
+            svg {
+                width: 24px;
+                height: 24px;
+            }
+        }
     }
 }
